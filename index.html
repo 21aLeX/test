@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.29.0/codemirror.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.29.0/codemirror.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.29.0/mode/javascript/javascript.js"></script>
+    <script src="script.js"></script>
+    <link href="style.css" rel="stylesheet"></link>
+    <meta charset="utf-8"></meta>
+    <title>us3462</title>
+  </head>
+  <body >
+  <div class="shadow">
+  <div class="spisok">
+    <p>Список файлов:</p>
+    <div class="a">
+    <a href="#" onclick="to('index.html')">index.html</a></br>
+    <a href="#" onclick="to('style.css')">style.css</a></br>
+    <a href="#" onclick="to('dir.php')">dir.php</a></br>
+    <a href="#" onclick="to('script.js')">script.js</a></br>
+    </div></br>
+    <input type="text" size="20" id="id"> 
+    <input type="text" size="20" id="result" placeholder="Результат">
+    <input type="button" onclick="sentData()" size="10" value="Получить">
+    </div>
+    <hr color="black" ></hr>
+    <div class="listing">
+      <p>Листинг файла</p>
+      <textarea id="some_iframe" disabled>
+
+      </textarea>
+    </div>
+  </div>
+</body>
+</html>
